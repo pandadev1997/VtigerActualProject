@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[login happen succesfully]]>
+    </line>
+    <line>
+      <![CDATA[contact link click]]>
+    </line>
+    <line>
+      <![CDATA[lookup image click]]>
+    </line>
+    <line>
+      <![CDATA[logout happen succesfully]]>
+    </line>
+    <line>
+      <![CDATA[login happen succesfully]]>
+    </line>
+    <line>
+      <![CDATA[logout happen succesfully]]>
+    </line>
+    <line>
+      <![CDATA[browser close]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-02T15:12:53 IST" name="Default suite" finished-at="2023-08-02T15:13:08 IST" duration-ms="15777">
+    <groups>
+      <group name="Regression">
+        <method signature="VerifyuserCreateContactsTest.demo()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" name="demo" class="com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="VerifyuserCreateContactsTest.contactTest()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" name="contactTest" class="com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest"/>
+        <method signature="VerifyuserCreateContactsTest.demo()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" name="demo" class="com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-08-02T15:12:53 IST" name="Default test" finished-at="2023-08-02T15:13:08 IST" duration-ms="15777">
+      <class name="com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest">
+        <test-method is-config="true" signature="bsconfig()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" started-at="2023-08-02T15:12:53 IST" name="bsconfig" finished-at="2023-08-02T15:12:53 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsconfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" started-at="2023-08-02T15:12:53 IST" name="bcConfig" finished-at="2023-08-02T15:12:56 IST" duration-ms="2751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" started-at="2023-08-02T15:12:56 IST" name="bmConfig" finished-at="2023-08-02T15:12:59 IST" duration-ms="3378" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login happen succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="contactTest()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" started-at="2023-08-02T15:12:59 IST" name="contactTest" finished-at="2023-08-02T15:13:03 IST" duration-ms="4491" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[contact link click]]>
+            </line>
+            <line>
+              <![CDATA[lookup image click]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" started-at="2023-08-02T15:13:03 IST" name="amConfig" finished-at="2023-08-02T15:13:04 IST" duration-ms="735" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout happen succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" started-at="2023-08-02T15:13:04 IST" name="bmConfig" finished-at="2023-08-02T15:13:07 IST" duration-ms="3257" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login happen succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="demo()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" started-at="2023-08-02T15:13:07 IST" name="demo" finished-at="2023-08-02T15:13:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" started-at="2023-08-02T15:13:07 IST" name="amConfig" finished-at="2023-08-02T15:13:08 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout happen succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" started-at="2023-08-02T15:13:08 IST" name="acConfig" finished-at="2023-08-02T15:13:08 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest@76494737]" started-at="2023-08-02T15:13:08 IST" name="asConfig" finished-at="2023-08-02T15:13:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- com.crm.vtiger.contactsTest.VerifyuserCreateContactsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
