@@ -34,9 +34,10 @@ public class Baseclass {
 	//@BeforeTest
 	@BeforeClass(groups = {"smoke","Regression"})
 	public void bcConfig(/*String BROWSER*/) throws Throwable {
-		String BROWSER = futil.getDataFromProperty("browser");
-		//String BROWSER=System.getProperty("browser");
-		String URL = futil.getDataFromProperty("url");
+		//String BROWSER = futil.getDataFromProperty("browser");
+		String BROWSER=System.getProperty("browser");
+		String URL=System.getProperty("url");
+		//String URL = futil.getDataFromProperty("url");
 		
 		//run time polymorphism
 		if(BROWSER.equalsIgnoreCase("chrome")) {
