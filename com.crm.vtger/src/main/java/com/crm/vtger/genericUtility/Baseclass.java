@@ -34,8 +34,8 @@ public class Baseclass {
 	//@BeforeTest
 	@BeforeClass(groups = {"smoke","Regression"})
 	public void bcConfig(/*String BROWSER*/) throws Throwable {
-		//String BROWSER = futil.getDataFromProperty("browser");
-		String BROWSER=System.getProperty("browser");
+		String BROWSER = futil.getDataFromProperty("browser");
+		//String BROWSER=System.getProperty("browser");
 		String URL=System.getProperty("url");
 		//String URL = futil.getDataFromProperty("url");
 		
